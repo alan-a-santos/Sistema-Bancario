@@ -26,7 +26,7 @@ while True:
 
     elif opcao == 's':
         if saldo ==0 and extrato=="":
-            print("Olá!, Para movimentar a conta realize o primeiro depósito")
+            print("Olá!, Para iniciar a movimentação da conta realize o primeiro depósito!!!")
         else:
             valor = float(input('Digite o valor do saque: '))
             saldo_insulficiente = valor > saldo
