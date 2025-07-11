@@ -59,6 +59,7 @@ while True:
             print(extrato)
             print(f"\nSaldo: R$ {saldo:.2f}")
         print("========================================\n")       
+    
     elif opcao =="q":
         break
     else:
